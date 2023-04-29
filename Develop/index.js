@@ -11,8 +11,9 @@ const questions = [
     {type: 'input', message: 'What was used?', name: 'usage'},
     {type: 'checkbox', message: 'What is the license?', name: 'license', choices: ['MIT', 'APACHE2.0', 'Boost1.0', 'BSD2', 'BSD3', 'NONE']},
     {type: 'input', message: 'Who are you contributing?', name: 'contribution'},
-    {type: 'input', message: 'What were the tests?', name: 'tests'},
-    {type: 'input', message: 'Any questions?', name: 'questions'},
+    {type: 'input', message: 'How do I test this?', name: 'tests'},
+    {type: 'input', message: 'What is your email?', name: 'email'},
+    {type: 'input', message: 'What is your GitHub username?',name: 'github'},
 ];
 
 // TODO: Create a function to write README file
